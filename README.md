@@ -7,6 +7,47 @@ Bug List (List of bugs)
 - Cross Site Referer Leak
 - CSRF (cross site request forgery)
 - CSS Injection
+- DOS (Denial of Service)
+  - Flooding
+    - Application Layer
+      - HTTP/2 Rapid Reset
+      - RUDY (R-U-Dead-Yet)
+      - Slowloris
+    - Protocol Based
+      - HTTP
+      - ICMP
+      - SYN
+      - UDP 
+  - Resource Exhaustion
+    - API
+      - GraphQL Query Deep Attacks
+      - JSON Bomb
+      - XML Entity Expansion
+      - ZIP Bomb
+    - Auth
+      - Rate Limit Abuse
+      - Session Table Overflow
+      - Token Exhaustion
+    - BackEnd
+      - CPU
+      - Databases
+        - Full Table Scans
+        - N+1 Query Problems
+        - Transaction Locks
+      - Disk Space
+      - FileSystem
+        - Path Traversal Depth
+        - Symbolic Link
+        - ZIP Slip
+      - Memory
+    - FrontEnd
+      - CSs based rendering exhaustion
+      - Resources based Load Event Handler dangling 
+      - Infinite Loops in Scripts
+    - Parser
+      - Decompression Bombs
+      - Depth 
+      - Regular Expression
 - HPP (http parameter pollution)
 - HTML Injection
 - LFI (local file inclusion)
