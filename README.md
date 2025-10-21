@@ -82,10 +82,12 @@ Bug List (List of bugs)
   - Key reuse
   - Memory Leaks
   - Missing Autentication (no-AEAD)
+  - Missing HSTS
   - PRNGs
   - Padding Oracle
   - Timming Attacks
   - Weak Encryption Choices
+- Directory Listing
 - DNS Cache Poisoning
 - Host Header Injection
 - HPP (http parameter pollution)
