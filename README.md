@@ -3,10 +3,26 @@ Bug List (List of bugs)
 
 ### List
 
+- Auth
+  - Bypass
+  - Inssuficient Session Isolation
+  - Password Quality
+  - Predictable Credentials
+  - Unsafe Distribution
+  - Unsafe Storage
+  - Unsafe Transmission
+  - Username Enumeration
+  - Username Quality
+- Cache Poisoning
 - Clickjacking
+- Cookie Tossing
 - Cross Site Referer Leak
+- Cross User Defacement
 - CSRF (cross site request forgery)
 - CSS Injection
+- CVEs
+- Dangling Markup
+- DOM Clobbering
 - DOS (Denial of Service)
   - Flooding
     - Application Layer
@@ -39,6 +55,8 @@ Bug List (List of bugs)
         - Path Traversal Depth
         - Symbolic Link
         - ZIP Slip
+      - Lack of resources
+        - Limited Bandwidth
       - Memory
     - FrontEnd
       - CSs based rendering exhaustion
@@ -48,15 +66,43 @@ Bug List (List of bugs)
       - Decompression Bombs
       - Depth 
       - Regular Expression
+- Command Injection
+- Cryptographic Flaws
+- DNS Cache Poisoning
+- Host Header Injection
 - HPP (http parameter pollution)
 - HTML Injection
+- HTTP Response Smuggling
+- HTTP Response Splitting
+- IDOR (Indirect Object Reference)
+- Information Leakage
+  - Direct
+  - Errors
+  - Logs 
+  - Metadata in files
 - LFI (local file inclusion)
+- Logic Flaws
+- Misconfiguration
+  - Insecure Certificates
+  - Insecure Cookies
+  - Insecure Default Config
+  - Missing HTTP Security Headers
 - Open Redirect
 - Path Traversal
+- Private Data Disclosure 
+- Privilege Bypass
+- Privilege Scalation
+- Race Condition
+- RCE (remote Code Execution)
+- RCI (remote code inclusion)
 - RFI (remote file inclusion)
 - SMTP Header Injection (simple mail transfer protocol header injection)
 - SSRF (server side request forgery)
 - SSTI (server side template injection)
+- Subdomain Takeover
+- SQLi (simple query language injection)
+- Template Injection
+- Type Juggling
 - URL Parser Confusion
 - XS-Leaks (cross site leaks)
   - Cache Probing
@@ -78,8 +124,11 @@ Bug List (List of bugs)
     - Performance API
   - Windows References
   - XS-Search
-- XSS (dom)
-- XSS (mutated)
-- XSS (reflected)
-- XSS (stored)
+- XSS
+  - DOM
+  - Mutated
+  - Reflected
+  - Self
+  - Stored
+- XXE (xml external entity injection)
 - Zone Transfer
