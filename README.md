@@ -7,6 +7,7 @@ Bug List (List of bugs)
   - Bypass
   - Inssuficient Rate Limit
     - Password Spraying
+  - Inssuficient Session Expiration
   - Inssuficient Session Isolation
   - Password Quality
   - Predictable Credentials
@@ -64,7 +65,7 @@ Bug List (List of bugs)
         - Quota Exhaustion
       - Memory
     - FrontEnd
-      - CSs based rendering exhaustion
+      - CSS based rendering exhaustion
       - Resources based Load Event Handler dangling 
       - Infinite Loops in Scripts
     - Parser
@@ -131,6 +132,8 @@ Bug List (List of bugs)
   - Bussiness Logic Abuse
   - Excesive Permissions
   - Logic Flaws in Source Code
+  - Negative Number For Items
+  - Number over/underflow
 - Misconfiguration
   - Insecure Certificates
   - Insecure Cookies
@@ -153,6 +156,8 @@ Bug List (List of bugs)
 - Template Injection
 - Type Juggling
 - URL Parser Confusion
+- VHost confusion
+- Web Cache Deception
 - XS-Leaks (cross site leaks)
   - Cache Probing
   - CSS tricks
