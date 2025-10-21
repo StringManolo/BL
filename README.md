@@ -150,6 +150,7 @@ Bug List (List of bugs)
 - RCE (remote Code Execution)
 - RCI (remote code inclusion)
 - RFI (remote file inclusion)
+- Session Fixation
 - SMTP Header Injection (simple mail transfer protocol header injection)
 - SSRF (server side request forgery)
 - SSTI (server side template injection)
