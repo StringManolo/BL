@@ -8,6 +8,8 @@ Bug List (List of bugs)
   - Inssuficient Session Isolation
   - Password Quality
   - Predictable Credentials
+  - Inssuficient Rate Limit
+    - Password Spraying
   - Unsafe Distribution
   - Unsafe Storage
   - Unsafe Transmission
@@ -68,6 +70,7 @@ Bug List (List of bugs)
       - Regular Expression
 - Command Injection
 - Cryptographic Flaws
+  - Padding Oracle
 - DNS Cache Poisoning
 - Host Header Injection
 - HPP (http parameter pollution)
@@ -81,6 +84,28 @@ Bug List (List of bugs)
   - Logs 
   - Metadata in files
 - LFI (local file inclusion)
+- LLM flaws
+  - Bias
+  - Context Flooding
+  - Cross Modal Data Leaks
+  - Data Leaks
+  - DOS
+  - Evil Output
+  - Insecure Output Handling
+  - Insecure Sandbox
+  - Malicious Artifacts
+  - Membership Inference
+  - Model Evasion
+  - Model Exfiltration
+  - Model fingerprinting
+  - Model Poisoning
+  - Multimodal attacks
+  - Prompt Injection
+  - Rogue Fine-Tuning
+  - System Prompt Leaking
+  - Template Injection
+  - Training Data Extraction
+  - Training-Serving Skew
 - Logic Flaws
 - Misconfiguration
   - Insecure Certificates
