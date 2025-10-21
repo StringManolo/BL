@@ -21,12 +21,18 @@ Bug List (List of bugs)
 - Cache Poisoning
 - Clickjacking
 - Cookie Tossing
+- CRLF
+  - Email Injection
+  - WAF bypass
 - Cross Site Referer Leak
 - Cross User Defacement
 - CSRF (cross site request forgery)
 - CSS Injection
+- CSTI (client side template injection)
+- CSWSH (cross site websocket hijacking)
 - CVEs
 - Dangling Markup
+- Dependency Confusion
 - DOM Clobbering
 - DOS (Denial of Service)
   - Flooding
@@ -89,9 +95,13 @@ Bug List (List of bugs)
   - Weak Encryption Choices
 - Directory Listing
 - DNS Cache Poisoning
+- Formula Injection
+- GRPC Injections
 - Host Header Injection
 - HPP (http parameter pollution)
 - HTML Injection
+- HTTP Connection Contamination
+- HTTP hop-by-hop headers
 - HTTP Response Smuggling
 - HTTP Response Splitting
 - IDOR (Indirect Object Reference)
@@ -125,6 +135,17 @@ Bug List (List of bugs)
   - Model Poisoning
   - Multimodal attacks
   - Prompt Injection
+    - Contextual
+    - Cross Domain
+    - Cross Modal
+    - Cross Model
+    - Direct
+    - Indirect
+    - Invisible
+    - Meta-Prompt
+    - MultiTurn 
+    - RAG Poisoning
+    - Script Injection
   - Rogue Fine-Tuning
   - System Prompt Leaking
   - Template Injection
@@ -141,6 +162,7 @@ Bug List (List of bugs)
   - Insecure Cookies
   - Insecure Default Config
   - Missing HTTP Security Headers
+- NoSQLi (no simple query language injections)
 - Open Redirect
 - Path Traversal
 - Private Data Disclosure 
@@ -152,6 +174,7 @@ Bug List (List of bugs)
 - RFI (remote file inclusion)
 - Session Fixation
 - SMTP Header Injection (simple mail transfer protocol header injection)
+- SSI injections (server side includes injection)
 - SSRF (server side request forgery)
 - SSTI (server side template injection)
 - Subdomain Takeover
@@ -161,6 +184,7 @@ Bug List (List of bugs)
 - URL Parser Confusion
 - VHost confusion
 - Web Cache Deception
+- XPath injection
 - XS-Leaks (cross site leaks)
   - Cache Probing
   - CSS tricks
@@ -187,5 +211,6 @@ Bug List (List of bugs)
   - Reflected
   - Self
   - Stored
+- XSW (xml signature wrapping)
 - XXE (xml external entity injection)
 - Zone Transfer
