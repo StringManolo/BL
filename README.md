@@ -5,16 +5,18 @@ Bug List (List of bugs)
 
 - Auth
   - Bypass
+  - Inssuficient Rate Limit
+    - Password Spraying
   - Inssuficient Session Isolation
   - Password Quality
   - Predictable Credentials
-  - Inssuficient Rate Limit
-    - Password Spraying
+  - Magic Link Replay
   - Unsafe Distribution
   - Unsafe Storage
   - Unsafe Transmission
   - Username Enumeration
   - Username Quality
+- Buffer Overflow
 - Cache Poisoning
 - Clickjacking
 - Cookie Tossing
@@ -59,6 +61,7 @@ Bug List (List of bugs)
         - ZIP Slip
       - Lack of resources
         - Limited Bandwidth
+        - Quota Exhaustion
       - Memory
     - FrontEnd
       - CSs based rendering exhaustion
@@ -70,7 +73,18 @@ Bug List (List of bugs)
       - Regular Expression
 - Command Injection
 - Cryptographic Flaws
+  - Errors Leaking Cryptographic Data
+  - Fallback to insecure protocols/cryptography
+  - Hardcoded keys/primitives
+  - Insecure Key Exchange
+  - IV/nonce reuse
+  - Key reuse
+  - Memory Leaks
+  - Missing Autentication (no-AEAD)
+  - PRNGs
   - Padding Oracle
+  - Timming Attacks
+  - Weak Encryption Choices
 - DNS Cache Poisoning
 - Host Header Injection
 - HPP (http parameter pollution)
@@ -80,9 +94,16 @@ Bug List (List of bugs)
 - IDOR (Indirect Object Reference)
 - Information Leakage
   - Direct
+    - Artifacts
+    - Repositories
+    - Source Code
   - Errors
   - Logs 
   - Metadata in files
+- Insecure Deserialization
+- Insecure Logging
+  - Log Forging
+  - Log Injection
 - LFI (local file inclusion)
 - LLM flaws
   - Bias
@@ -107,6 +128,9 @@ Bug List (List of bugs)
   - Training Data Extraction
   - Training-Serving Skew
 - Logic Flaws
+  - Bussiness Logic Abuse
+  - Excesive Permissions
+  - Logic Flaws in Source Code
 - Misconfiguration
   - Insecure Certificates
   - Insecure Cookies
