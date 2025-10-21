@@ -213,4 +213,4 @@ Bug List (List of bugs)
   - Stored
 - XSW (xml signature wrapping)
 - XXE (xml external entity injection)
-- Zone Transfer
+- Zone Transfer Attack
