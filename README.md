@@ -5,10 +5,10 @@ Bug List (List of bugs)
 
 - Auth
   - Bypass
-  - Inssuficient Rate Limit
+  - Insuficient Rate Limit
     - Password Spraying
-  - Inssuficient Session Expiration
-  - Inssuficient Session Isolation
+  - Insufficient Session Expiration
+  - Insufficient Session Isolation
   - Password Quality
   - Predictable Credentials
   - Magic Link Replay
